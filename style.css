@@ -17,7 +17,7 @@ h1{
     padding-left:2%;
 }
 .half-width image{
-   width: 80% ;
+   width: 80%;
 }
 .link-button{
     text-decoration: none;
@@ -37,4 +37,34 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.experience-item{
+            box-shadow: 10px 10px 40px gray;
+            width:40%;
+            margin-left :5%;
+            margin-right:5%;
+            padding-left: 20px;
+            border-radius:10px;
+}
+h2{
+         font-size: 40px;
+}
+.experience-area{
+        background-position: left;
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+}
+#full-developer{
+        --angle: 15deg;
+        border-left: 7px solid;
+        border-image-source: linear-gradient(var(--angle), red , cyan);
+        border-image-slice: 1;
+}
+#baby-developer{
+        border-left: 7px solid;
+       border-image-source: linear-gradient( salmon, purple);
+        border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
